@@ -1,3 +1,5 @@
+package curs1.CodeChallenge.Challenge4;
+
 import java.util.Scanner;
 
 public class Challenge4 {
