@@ -17,7 +17,7 @@ public class BoxingMatch {
     if (this.f1.health <= 0)
       return this.f2.name;
     else
-      return  this.f1.name;
+      return this.f1.name;
   }
 
   public static void main(String[] args) {

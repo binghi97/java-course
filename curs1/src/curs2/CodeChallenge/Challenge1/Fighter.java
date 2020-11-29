@@ -11,6 +11,12 @@ public class Fighter {
     this.damagePerAttack = damagePerAttack;
   }
 
+  public  Fighter(){
+    this.name = "Default";
+    this.health = 10;
+    this.damagePerAttack = 1;
+  }
+
   public void attack(Fighter f){
     f.health-=this.damagePerAttack;
   }
